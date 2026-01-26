@@ -1,6 +1,10 @@
 # Dependências: Ignora node_modules em qualquer subdiretório
 **/node_modules
 
+**/.next
+
+/.next
+
 # Logs
 npm-debug.log*
 yarn-debug.log*

@@ -10,7 +10,7 @@ const app = express();
 app.use(cors()); // Configuração do cors
 app.use(express.json()); // Configurando para trabalhar com JSON de forma "natural"
 
-// Coelção de Dados para teste
+// Coleção de Dados para teste
 
 const contatos = [
     {id:1, nome:"Luiz", idade:49, telefone:"12 345678"}
@@ -29,6 +29,7 @@ app.get("/", (req, res)=>{
 // Inserindo contatos
 app.post("/", (req, res) =>{
     let user = req.body
+    
     console.log(user);
 
     contatos.push(user)
