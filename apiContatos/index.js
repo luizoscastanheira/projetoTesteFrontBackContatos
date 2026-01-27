@@ -13,7 +13,7 @@ app.use(express.json()); // Configurando para trabalhar com JSON de forma "natur
 // Coleção de Dados para teste
 
 const contatos = [
-    {id:1, nome:"Luiz", idade:49, telefone:"12 345678"}
+    {"id":"1", "nome":"Luiz", "idade":"49", "telefone":"12 345678"}
 ];
 
 
